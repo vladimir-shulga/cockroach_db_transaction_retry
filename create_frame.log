@@ -1,0 +1,1093 @@
+2018-07-04 14:25:19,0158  INFO org.eclipse.jetty.util.log - Logging initialized @3036ms to org.eclipse.jetty.util.log.Slf4jLog 
+2018-07-04 14:25:19,0379  INFO io.dropwizard.server.SimpleServerFactory - Registering jersey handler with root path prefix: / 
+2018-07-04 14:25:19,0387  INFO io.dropwizard.server.SimpleServerFactory - Registering admin handler with root path prefix: /catalog/admin 
+2018-07-04 14:25:19,0806  INFO org.hibernate.Version - HHH000412: Hibernate Core {[WORKING]} 
+2018-07-04 14:25:19,0810  INFO org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-07-04 14:25:19,0876  INFO io.dropwizard.hibernate.SessionFactoryFactory - Entity classes: [com.aginity.amp.catalogservice.domain.model.connection.AbstractConnection, com.aginity.amp.catalogservice.domain.model.connection.AmpDataManagementCatalogConnection, com.aginity.amp.catalogservice.domain.model.connection.BaseConnection, com.aginity.amp.catalogservice.domain.model.connection.ConnectionAdvancedProperty, com.aginity.amp.catalogservice.domain.model.connection.DatabaseConnection, com.aginity.amp.catalogservice.domain.model.connection.FileSystemConnection, com.aginity.amp.catalogservice.domain.model.connection.JdbcDriver, com.aginity.amp.catalogservice.domain.model.environment.ConfigurationProperty, com.aginity.amp.catalogservice.domain.model.environment.Environment, com.aginity.amp.catalogservice.domain.model.permission.Permission, com.aginity.amp.catalogservice.domain.model.sparkcluster.SparkCluster, com.aginity.amp.catalogservice.domain.model.sparkcluster.SparkClusterProperty, com.aginity.amp.catalogservice.domain.model.thirdpartylib.ThirdPartyLib, com.aginity.amp.catalogservice.domain.model.workspace.ExternalCatalogIdMapper, com.aginity.amp.catalogservice.domain.model.workspace.Project, com.aginity.amp.catalogservice.domain.model.workspace.Workspace, com.aginity.amp.catalogservice.domain.model.workspace.asset.Asset, com.aginity.amp.catalogservice.domain.model.workspace.asset.dataobject.DataObject, com.aginity.amp.catalogservice.domain.model.workspace.asset.dataobject.DataObjectAdvancedProperty, com.aginity.amp.catalogservice.domain.model.workspace.asset.dataobject.DataObjectColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.dataobject.DataObjectColumnMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.dataobject.DataObjectMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.AbstractColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.Frame, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.FrameParameter, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.GeneralColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.Relationship, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.RelationshipColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.dimension.BaseDimension, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.dimension.BaseDimensionColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.dimension.BaseDimensionMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.externalanalytics.ExternalAnalytics, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.fact.BaseFact, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.fact.BaseFactColumnMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.fact.BaseFactMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.notebookframe.NotebookFrame, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.notebookframe.NotebookOutputColumnMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.notebookframe.NotebookOutputMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.notebookframe.NotebookOutputParameterValue, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.sourceframe.SourceFrame, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.Expression, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.OrderByColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.ViewFrame, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.ViewFrameLogic, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.filter.Filter, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.filter.FilterEntry, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.filter.FilterSet, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.inputschema.Path, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.inputschema.PathElement, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.inputschema.ViewFrameInputSchema, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.inputschema.ViewFrameInputSchemaMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.inputschema.ViewFrameInputSchemaMappingParameterValue, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.resultset.DataElement, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.resultset.ExpressionOperand, com.aginity.amp.catalogservice.domain.model.workspace.asset.frame.viewframe.resultset.ViewFrameResultSetColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.Notebook, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookInputColumnMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookInputMapping, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookInputMappingParameterValue, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookInputSchema, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookOutputSchema, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookSchema, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.NotebookSchemaColumn, com.aginity.amp.catalogservice.domain.model.workspace.asset.notebook.Parameter, com.aginity.amp.catalogservice.domain.model.workspace.asset.publication.Publication, com.aginity.amp.catalogservice.domain.model.workspace.asset.publication.PublicationFrameParameterValue, com.aginity.amp.catalogservice.domain.model.workspace.asset.publication.PublicationParameter] 
+2018-07-04 14:25:20,0045  INFO org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+2018-07-04 14:25:20,0791  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-07-04 14:25:21,0183  INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-07-04 14:25:21,0202  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5856dbe4 
+2018-07-04 14:25:22,0208  WARN org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): com.aginity.amp.catalogservice.domain.model.workspace.ExternalCatalogMapperPk 
+2018-07-04 14:25:22,0209  WARN org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): com.aginity.amp.catalogservice.domain.model.workspace.ExternalCatalogMapperPk 
+2018-07-04 14:25:22,0906  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.Currency] overrides previous : org.hibernate.type.CurrencyType@51bba775 
+2018-07-04 14:25:22,0924  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.Duration] overrides previous : org.hibernate.type.DurationType@3e7935f1 
+2018-07-04 14:25:22,0924  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.Instant] overrides previous : org.hibernate.type.InstantType@9751c9 
+2018-07-04 14:25:22,0924  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.LocalDate] overrides previous : org.hibernate.type.LocalDateType@7bbab46e 
+2018-07-04 14:25:22,0924  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.LocalDateTime] overrides previous : org.hibernate.type.LocalDateTimeType@4beec7a1 
+2018-07-04 14:25:22,0924  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.LocalTime] overrides previous : org.hibernate.type.LocalTimeType@23f16852 
+2018-07-04 14:25:22,0925  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.OffsetDateTime] overrides previous : org.hibernate.type.OffsetDateTimeType@dc6a186 
+2018-07-04 14:25:22,0925  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.OffsetTime] overrides previous : org.hibernate.type.OffsetTimeType@30a8ac50 
+2018-07-04 14:25:22,0925  INFO org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.time.ZonedDateTime] overrides previous : org.hibernate.type.ZonedDateTimeType@2f0a29f7 
+2018-07-04 14:25:26,0371  INFO org.apache.shiro.config.IniSecurityManagerFactory - Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+2018-07-04 14:25:26,0409  INFO com.aginity.dropwizard.bundles.dbmigration.DbMigrationBundle - Running schema migration 
+2018-07-04 14:25:28,0978  INFO liquibase - Successfully acquired change log lock 
+2018-07-04 14:25:32,0336  INFO liquibase - Reading from public.databasechangelog 
+2018-07-04 14:25:32,0430  INFO liquibase - Successfully released change log lock 
+2018-07-04 14:25:32,0430  INFO com.aginity.dropwizard.bundles.dbmigration.DbMigrationBundle - Migration completed! 
+2018-07-04 14:25:33,0417  INFO io.dropwizard.server.SimpleServerFactory - Registering jersey handler with root path prefix: / 
+2018-07-04 14:25:33,0418  INFO io.dropwizard.server.SimpleServerFactory - Registering admin handler with root path prefix: /catalog/admin 
+2018-07-04 14:25:33,0427  INFO io.dropwizard.server.ServerFactory - Starting Catalog Service
+================================================================================
+
+                            Catalog Service
+
+================================================================================
+ 
+2018-07-04 14:25:33,0533  INFO org.eclipse.jetty.setuid.SetUIDListener - Opened Catalog Service@7c732cc2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080} 
+2018-07-04 14:25:33,0537  INFO org.eclipse.jetty.server.Server - jetty-9.4.z-SNAPSHOT 
+2018-07-04 14:25:34,0142  INFO io.dropwizard.jersey.DropwizardResourceConfig - The following paths were found for the configured resources:
+
+    GET     /catalog/clusters (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    POST    /catalog/clusters (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    GET     /catalog/clusters/versions (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    GET     /catalog/clusters/versions/{sparkVersionId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    DELETE  /catalog/clusters/{clusterId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    GET     /catalog/clusters/{clusterId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    PUT     /catalog/clusters/{clusterId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.SparkClusterResource)
+    GET     /catalog/connections (com.aginity.amp.catalogservice.port.adapter.rest.resources.ConnectionResource)
+    POST    /catalog/connections (com.aginity.amp.catalogservice.port.adapter.rest.resources.ConnectionResource)
+    DELETE  /catalog/connections/{connectionId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ConnectionResource)
+    GET     /catalog/connections/{connectionId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ConnectionResource)
+    PATCH   /catalog/connections/{connectionId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ConnectionResource)
+    PUT     /catalog/connections/{connectionId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ConnectionResource)
+    GET     /catalog/connections/{connectionId}/collaborators (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.ConnectionCollaboratorsResource)
+    POST    /catalog/connections/{connectionId}/collaborators (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.ConnectionCollaboratorsResource)
+    PUT     /catalog/connections/{connectionId}/collaborators (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.ConnectionCollaboratorsResource)
+    DELETE  /catalog/connections/{connectionId}/collaborators/{username} (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.ConnectionCollaboratorsResource)
+    PUT     /catalog/connections/{connectionId}/collaborators/{username} (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.ConnectionCollaboratorsResource)
+    GET     /catalog/environment (com.aginity.amp.catalogservice.port.adapter.rest.resources.EnvironmentResource)
+    PUT     /catalog/environment (com.aginity.amp.catalogservice.port.adapter.rest.resources.EnvironmentResource)
+    POST    /catalog/frames/ (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    POST    /catalog/frames/dependencies (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    DELETE  /catalog/frames/{frameId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    GET     /catalog/frames/{frameId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    PUT     /catalog/frames/{frameId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    GET     /catalog/frames/{frameId}/dependencies (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    GET     /catalog/jdbc-drivers (com.aginity.amp.catalogservice.port.adapter.rest.resources.JdbcDriverResource)
+    POST    /catalog/jdbc-drivers (com.aginity.amp.catalogservice.port.adapter.rest.resources.JdbcDriverResource)
+    DELETE  /catalog/jdbc-drivers/{driverId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.JdbcDriverResource)
+    GET     /catalog/jdbc-drivers/{driverId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.JdbcDriverResource)
+    PATCH   /catalog/jdbc-drivers/{driverId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.JdbcDriverResource)
+    DELETE  /catalog/notebooks/{notebookId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.NotebookResource)
+    GET     /catalog/notebooks/{notebookId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.NotebookResource)
+    PUT     /catalog/notebooks/{notebookId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.NotebookResource)
+    DELETE  /catalog/projects/{projectId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ProjectResource)
+    GET     /catalog/projects/{projectId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ProjectResource)
+    PUT     /catalog/projects/{projectId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ProjectResource)
+    GET     /catalog/projects/{projectId}/assets (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.AssetResource)
+    POST    /catalog/projects/{projectId}/frames (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource)
+    POST    /catalog/projects/{projectId}/notebooks (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.NotebookResource)
+    POST    /catalog/projects/{projectId}/publications (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.PublicationResource)
+    DELETE  /catalog/publications/{publicationId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.PublicationResource)
+    GET     /catalog/publications/{publicationId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.PublicationResource)
+    PUT     /catalog/publications/{publicationId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.PublicationResource)
+    POST    /catalog/third-party-libs (com.aginity.amp.catalogservice.port.adapter.rest.resources.ThirdPartyLibResource)
+    DELETE  /catalog/third-party-libs/{libId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ThirdPartyLibResource)
+    GET     /catalog/third-party-libs/{libId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.ThirdPartyLibResource)
+    GET     /catalog/version (com.aginity.amp.catalogservice.port.adapter.rest.resources.VersionResource)
+    GET     /catalog/workspaces (com.aginity.amp.catalogservice.port.adapter.rest.resources.WorkspaceResource)
+    POST    /catalog/workspaces (com.aginity.amp.catalogservice.port.adapter.rest.resources.WorkspaceResource)
+    DELETE  /catalog/workspaces/{workspaceId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.WorkspaceResource)
+    GET     /catalog/workspaces/{workspaceId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.WorkspaceResource)
+    PUT     /catalog/workspaces/{workspaceId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.WorkspaceResource)
+    POST    /catalog/workspaces/{workspaceId}/batch-load (com.aginity.amp.catalogservice.port.adapter.rest.resources.WorkspaceResource)
+    GET     /catalog/workspaces/{workspaceId}/collaborators (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.WorkspaceCollaboratorsResource)
+    POST    /catalog/workspaces/{workspaceId}/collaborators (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.WorkspaceCollaboratorsResource)
+    PUT     /catalog/workspaces/{workspaceId}/collaborators (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.WorkspaceCollaboratorsResource)
+    DELETE  /catalog/workspaces/{workspaceId}/collaborators/{username} (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.WorkspaceCollaboratorsResource)
+    PUT     /catalog/workspaces/{workspaceId}/collaborators/{username} (com.aginity.amp.catalogservice.port.adapter.rest.resources.collaborators.WorkspaceCollaboratorsResource)
+    GET     /catalog/workspaces/{workspaceId}/projects (com.aginity.amp.catalogservice.port.adapter.rest.resources.ProjectResource)
+    POST    /catalog/workspaces/{workspaceId}/projects (com.aginity.amp.catalogservice.port.adapter.rest.resources.ProjectResource)
+    POST    /internal/catalog/projects/temp/publications (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.InternalPublicationResource)
+    DELETE  /internal/catalog/projects/temp/publications/{publicationId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.InternalPublicationResource)
+    POST    /internal/catalog/projects/temp/view (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.InternalFrameResource)
+    DELETE  /internal/catalog/projects/temp/view/{frameId} (com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.InternalFrameResource)
+ 
+2018-07-04 14:25:34,0148  INFO org.eclipse.jetty.server.handler.ContextHandler - Started i.d.j.MutableServletContextHandler@32002a21{/,null,AVAILABLE} 
+2018-07-04 14:25:34,0163  INFO io.dropwizard.setup.AdminEnvironment - tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+2018-07-04 14:25:34,0180  INFO org.eclipse.jetty.server.handler.ContextHandler - Started i.d.j.MutableServletContextHandler@1135efad{/catalog/admin,null,AVAILABLE} 
+2018-07-04 14:25:34,0198  INFO org.eclipse.jetty.server.AbstractConnector - Started Catalog Service@7c732cc2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080} 
+2018-07-04 14:25:34,0201  INFO org.eclipse.jetty.server.Server - Started @18077ms 
+2018-07-04 14:27:43,0235  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:43,0237  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:43,0320 1c870f033f10e24c87b8d87e0ac114b6 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 1c870f033f10e24c87b8d87e0ac114b6 
+2018-07-04 14:27:43,0320 1c870f033f10e24c87b8d87e0ac114b6 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:43,0320 1c870f033f10e24c87b8d87e0ac114b6 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:43,0563 1c870f033f10e24c87b8d87e0ac114b6 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_CONNECTIONS', time=1530714463563, attributes={}} 
+2018-07-04 14:27:43,0635 1c870f033f10e24c87b8d87e0ac114b6 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    89447 nanoseconds spent acquiring 2 JDBC connections;
+    48952 nanoseconds spent releasing 2 JDBC connections;
+    647176 nanoseconds spent preparing 3 JDBC statements;
+    47970602 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    50805 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:27:43,0891  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:43,0891  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:43,0892 a55f66829012ec3cc243c1716594e603 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : a55f66829012ec3cc243c1716594e603 
+2018-07-04 14:27:43,0892 a55f66829012ec3cc243c1716594e603 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:43,0892 a55f66829012ec3cc243c1716594e603 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:43,0897 a55f66829012ec3cc243c1716594e603 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_CONNECTIONS', time=1530714463897, attributes={}} 
+2018-07-04 14:27:43,0906 a55f66829012ec3cc243c1716594e603 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    86427 nanoseconds spent acquiring 2 JDBC connections;
+    50913 nanoseconds spent releasing 2 JDBC connections;
+    360510 nanoseconds spent preparing 3 JDBC statements;
+    3005964 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    25034 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:27:44,0026  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:44,0025  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:44,0028 b75233532d069f613a33a729477d6b63 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : b75233532d069f613a33a729477d6b63 
+2018-07-04 14:27:44,0029 b75233532d069f613a33a729477d6b63 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:44,0029 b75233532d069f613a33a729477d6b63 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:44,0270 b75233532d069f613a33a729477d6b63 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_WORKSPACE', time=1530714464270, attributes={}} 
+2018-07-04 14:27:44,0287 b75233532d069f613a33a729477d6b63 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    93464 nanoseconds spent acquiring 2 JDBC connections;
+    84552 nanoseconds spent releasing 2 JDBC connections;
+    889687 nanoseconds spent preparing 4 JDBC statements;
+    41022575 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6003576 nanoseconds spent executing 2 flushes (flushing a total of 2 entities and 0 collections);
+    241440 nanoseconds spent executing 3 partial-flushes (flushing a total of 1 entities and 1 collections)
+} 
+2018-07-04 14:27:44,0350  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:44,0350  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:44,0354 be749dcdcc88a6b00b77e13ea5d1b779 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : be749dcdcc88a6b00b77e13ea5d1b779 
+2018-07-04 14:27:44,0358 be749dcdcc88a6b00b77e13ea5d1b779 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:44,0359 be749dcdcc88a6b00b77e13ea5d1b779 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:44,0425 be749dcdcc88a6b00b77e13ea5d1b779 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+2018-07-04 14:27:44,0627 be749dcdcc88a6b00b77e13ea5d1b779 WARN org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 105 in HQL: [from com.aginity.amp.catalogservice.domain.model.workspace.Workspace as _obj_ where _obj_.workspaceId = ?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+2018-07-04 14:27:44,0735 be749dcdcc88a6b00b77e13ea5d1b779 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_PROJECT', time=1530714464735, attributes={}} 
+2018-07-04 14:27:44,0743 be749dcdcc88a6b00b77e13ea5d1b779 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    340290 nanoseconds spent acquiring 2 JDBC connections;
+    49022 nanoseconds spent releasing 2 JDBC connections;
+    5999246 nanoseconds spent preparing 6 JDBC statements;
+    79494428 nanoseconds spent executing 6 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1050315 nanoseconds spent executing 3 flushes (flushing a total of 5 entities and 0 collections);
+    523529 nanoseconds spent executing 5 partial-flushes (flushing a total of 4 entities and 4 collections)
+} 
+2018-07-04 14:27:44,0807  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:44,0807  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:44,0808 3e4af48c2a3d1c52643a2d8e31ff10fc INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 3e4af48c2a3d1c52643a2d8e31ff10fc 
+2018-07-04 14:27:44,0808 3e4af48c2a3d1c52643a2d8e31ff10fc INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:44,0808 3e4af48c2a3d1c52643a2d8e31ff10fc INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:44,0814 3e4af48c2a3d1c52643a2d8e31ff10fc INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_WORKSPACES', time=1530714464814, attributes={}} 
+2018-07-04 14:27:44,0853 3e4af48c2a3d1c52643a2d8e31ff10fc INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    91747 nanoseconds spent acquiring 2 JDBC connections;
+    51811 nanoseconds spent releasing 2 JDBC connections;
+    756852 nanoseconds spent preparing 3 JDBC statements;
+    15214813 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1329466 nanoseconds spent executing 2 flushes (flushing a total of 32 entities and 0 collections);
+    486275 nanoseconds spent executing 3 partial-flushes (flushing a total of 16 entities and 16 collections)
+} 
+2018-07-04 14:27:45,0136  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0136  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0138 7ef8d402d5e7116419074ad792c4fa5b INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 7ef8d402d5e7116419074ad792c4fa5b 
+2018-07-04 14:27:45,0138 7ef8d402d5e7116419074ad792c4fa5b INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0138 7ef8d402d5e7116419074ad792c4fa5b INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0141 7ef8d402d5e7116419074ad792c4fa5b INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_PROJECTS', time=1530714465141, attributes={}} 
+2018-07-04 14:27:45,0153 7ef8d402d5e7116419074ad792c4fa5b WARN org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 103 in HQL: [from com.aginity.amp.catalogservice.domain.model.workspace.Project as _obj_ where _obj_.workspaceId = ?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+2018-07-04 14:27:45,0162 7ef8d402d5e7116419074ad792c4fa5b INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    53597 nanoseconds spent acquiring 2 JDBC connections;
+    33787 nanoseconds spent releasing 2 JDBC connections;
+    1620834 nanoseconds spent preparing 4 JDBC statements;
+    5797600 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    461280 nanoseconds spent executing 2 flushes (flushing a total of 10 entities and 0 collections);
+    605896 nanoseconds spent executing 4 partial-flushes (flushing a total of 6 entities and 6 collections)
+} 
+2018-07-04 14:27:45,0201  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0201  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0227 eb52d9fca454d4d163ee8947f19e4542 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : eb52d9fca454d4d163ee8947f19e4542 
+2018-07-04 14:27:45,0227 eb52d9fca454d4d163ee8947f19e4542 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0227 eb52d9fca454d4d163ee8947f19e4542 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0244 eb52d9fca454d4d163ee8947f19e4542 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_ASSETS', time=1530714465244, attributes={}} 
+2018-07-04 14:27:45,0247 eb52d9fca454d4d163ee8947f19e4542 WARN org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 101 in HQL: [from com.aginity.amp.catalogservice.domain.model.workspace.Project as _obj_ where _obj_.projectId = ?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+2018-07-04 14:27:45,0287 eb52d9fca454d4d163ee8947f19e4542 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    66743 nanoseconds spent acquiring 2 JDBC connections;
+    158267 nanoseconds spent releasing 2 JDBC connections;
+    332782 nanoseconds spent preparing 4 JDBC statements;
+    29390618 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    675245 nanoseconds spent executing 3 flushes (flushing a total of 3 entities and 0 collections);
+    176423 nanoseconds spent executing 4 partial-flushes (flushing a total of 2 entities and 2 collections)
+} 
+2018-07-04 14:27:45,0332 dfad9b7d702143b55f4fdf0f75a11647 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0334 dfad9b7d702143b55f4fdf0f75a11647 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_WORKSPACES', time=1530714465334, attributes={}} 
+2018-07-04 14:27:45,0346 dfad9b7d702143b55f4fdf0f75a11647 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    108398 nanoseconds spent acquiring 2 JDBC connections;
+    75719 nanoseconds spent releasing 2 JDBC connections;
+    118548 nanoseconds spent preparing 3 JDBC statements;
+    2767204 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    2288225 nanoseconds spent executing 2 flushes (flushing a total of 32 entities and 0 collections);
+    460184 nanoseconds spent executing 3 partial-flushes (flushing a total of 16 entities and 16 collections)
+} 
+2018-07-04 14:27:45,0374  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0375  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0377 78a98f4ad9891bfa606137240b227e8d INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 78a98f4ad9891bfa606137240b227e8d 
+2018-07-04 14:27:45,0330  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0330  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0332 dfad9b7d702143b55f4fdf0f75a11647 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : dfad9b7d702143b55f4fdf0f75a11647 
+2018-07-04 14:27:45,0332 dfad9b7d702143b55f4fdf0f75a11647 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0377 78a98f4ad9891bfa606137240b227e8d INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0377 78a98f4ad9891bfa606137240b227e8d INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0384 78a98f4ad9891bfa606137240b227e8d INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_PROJECTS', time=1530714465384, attributes={}} 
+2018-07-04 14:27:45,0397 78a98f4ad9891bfa606137240b227e8d INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    57111 nanoseconds spent acquiring 2 JDBC connections;
+    49092 nanoseconds spent releasing 2 JDBC connections;
+    188410 nanoseconds spent preparing 4 JDBC statements;
+    7512641 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    389063 nanoseconds spent executing 2 flushes (flushing a total of 10 entities and 0 collections);
+    285993 nanoseconds spent executing 4 partial-flushes (flushing a total of 6 entities and 6 collections)
+} 
+2018-07-04 14:27:45,0423  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0423  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0425 5a6513dfcd847d2128c668ee10cb6a5a INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 5a6513dfcd847d2128c668ee10cb6a5a 
+2018-07-04 14:27:45,0425 5a6513dfcd847d2128c668ee10cb6a5a INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0425 5a6513dfcd847d2128c668ee10cb6a5a INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0430 5a6513dfcd847d2128c668ee10cb6a5a INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_ASSETS', time=1530714465430, attributes={}} 
+2018-07-04 14:27:45,0451 5a6513dfcd847d2128c668ee10cb6a5a INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    50282 nanoseconds spent acquiring 2 JDBC connections;
+    38825 nanoseconds spent releasing 2 JDBC connections;
+    397717 nanoseconds spent preparing 4 JDBC statements;
+    9507047 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    311706 nanoseconds spent executing 3 flushes (flushing a total of 3 entities and 0 collections);
+    118783 nanoseconds spent executing 4 partial-flushes (flushing a total of 2 entities and 2 collections)
+} 
+2018-07-04 14:27:45,0478  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0478  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0481 741d5b96e88b6c42024fe2ac8a36d6ae INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 741d5b96e88b6c42024fe2ac8a36d6ae 
+2018-07-04 14:27:45,0482 741d5b96e88b6c42024fe2ac8a36d6ae INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0482 741d5b96e88b6c42024fe2ac8a36d6ae INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0485 741d5b96e88b6c42024fe2ac8a36d6ae INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_WORKSPACES', time=1530714465485, attributes={}} 
+2018-07-04 14:27:45,0503 741d5b96e88b6c42024fe2ac8a36d6ae INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    48291 nanoseconds spent acquiring 2 JDBC connections;
+    30681 nanoseconds spent releasing 2 JDBC connections;
+    122720 nanoseconds spent preparing 3 JDBC statements;
+    6663083 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    3023317 nanoseconds spent executing 2 flushes (flushing a total of 32 entities and 0 collections);
+    1589203 nanoseconds spent executing 3 partial-flushes (flushing a total of 16 entities and 16 collections)
+} 
+2018-07-04 14:27:45,0534  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0534  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0538 a6ca1a5d024a44c1da0546e84e529e26 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : a6ca1a5d024a44c1da0546e84e529e26 
+2018-07-04 14:27:45,0538 a6ca1a5d024a44c1da0546e84e529e26 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0538 a6ca1a5d024a44c1da0546e84e529e26 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0546 a6ca1a5d024a44c1da0546e84e529e26 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_PROJECTS', time=1530714465546, attributes={}} 
+2018-07-04 14:27:45,0580 a6ca1a5d024a44c1da0546e84e529e26 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    94923 nanoseconds spent acquiring 2 JDBC connections;
+    35332 nanoseconds spent releasing 2 JDBC connections;
+    377816 nanoseconds spent preparing 4 JDBC statements;
+    6585452 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    10538323 nanoseconds spent executing 2 flushes (flushing a total of 10 entities and 0 collections);
+    371207 nanoseconds spent executing 4 partial-flushes (flushing a total of 6 entities and 6 collections)
+} 
+2018-07-04 14:27:45,0611  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0611  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0615 311240b6b7cac92509c3ca63b7b3c067 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 311240b6b7cac92509c3ca63b7b3c067 
+2018-07-04 14:27:45,0615 311240b6b7cac92509c3ca63b7b3c067 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0615 311240b6b7cac92509c3ca63b7b3c067 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0618 311240b6b7cac92509c3ca63b7b3c067 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='LIST_ASSETS', time=1530714465618, attributes={}} 
+2018-07-04 14:27:45,0651 311240b6b7cac92509c3ca63b7b3c067 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    62881 nanoseconds spent acquiring 2 JDBC connections;
+    39974 nanoseconds spent releasing 2 JDBC connections;
+    426063 nanoseconds spent preparing 4 JDBC statements;
+    20869382 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    572380 nanoseconds spent executing 3 flushes (flushing a total of 3 entities and 0 collections);
+    171356 nanoseconds spent executing 4 partial-flushes (flushing a total of 2 entities and 2 collections)
+} 
+2018-07-04 14:27:45,0937  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0937  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0943 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : d5edba0319b6a6d93c4d53d85a46ac9c 
+2018-07-04 14:27:45,0943 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0943 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0952  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0952  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0952  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0952  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0954 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : a59dc6fe7b2bd724b2c8a8b4d384dc54 
+2018-07-04 14:27:45,0954 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0954 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0955 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 67371a2d1610e5bdc4677fbbf750e8b8 
+2018-07-04 14:27:45,0955 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0955 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:45,0968  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:27:45,0969  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:27:45,0970 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 54dfed58b811d5cb772336b4b6dba33b 
+2018-07-04 14:27:45,0970 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:27:45,0970 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:27:46,0573 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:27:46,0573 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:27:46,0586 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:27:46,0586 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:27:46,0593 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:27:46,0607 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:27:46,0615 a59dc6fe7b2bd724b2c8a8b4d384dc54 WARN org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 103 in HQL: [from com.aginity.amp.catalogservice.domain.model.workspace.asset.Asset as _obj_ where _obj_.assetId = ?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+2018-07-04 14:27:46,0632 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:27:46,0638 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:28:08,0738 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before frame save 
+2018-07-04 14:28:08,0795 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before frame save 
+2018-07-04 14:28:08,0802 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before frame save 
+2018-07-04 14:28:08,0822 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before frame save 
+2018-07-04 14:28:09,0124 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After frame save 
+2018-07-04 14:28:09,0124 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_FRAME', time=1530714489124, attributes={}} 
+2018-07-04 14:28:09,0169 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After frame save 
+2018-07-04 14:28:09,0169 67371a2d1610e5bdc4677fbbf750e8b8 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_FRAME', time=1530714489169, attributes={}} 
+2018-07-04 14:28:09,0184 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After frame save 
+2018-07-04 14:28:09,0185 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_FRAME', time=1530714489185, attributes={}} 
+2018-07-04 14:28:09,0192 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After frame save 
+2018-07-04 14:28:09,0192 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_FRAME', time=1530714489192, attributes={}} 
+2018-07-04 14:28:09,0509 54dfed58b811d5cb772336b4b6dba33b WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 40001 
+2018-07-04 14:28:09,0509 d5edba0319b6a6d93c4d53d85a46ac9c WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 40001 
+2018-07-04 14:28:09,0509 54dfed58b811d5cb772336b4b6dba33b ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ERROR: restart transaction: HandledRetryableTxnError: TransactionRetryError: retry txn (RETRY_SERIALIZABLE): "sql txn" id=cd311029 key=/Table/112/1/362558550008725505/"FILTER_SET"/0 rw=true pri=0.17730193 iso=SERIALIZABLE stat=PENDING epo=0 ts=1530714466.495402411,1 orig=1530714466.493021196,0 max=1530714466.493021196,0 wto=false rop=false seq=7921 
+2018-07-04 14:28:09,0509 d5edba0319b6a6d93c4d53d85a46ac9c ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ERROR: restart transaction: HandledRetryableTxnError: TransactionRetryError: retry txn (RETRY_SERIALIZABLE): "sql txn" id=dd7720bf key=/Table/112/1/362558550268739585/"FILTER_SET"/0 rw=true pri=0.17602136 iso=SERIALIZABLE stat=PENDING epo=0 ts=1530714466.495402411,1 orig=1530714466.494169487,0 max=1530714466.494169487,0 wto=false rop=false seq=8002 
+2018-07-04 14:28:09,0517 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction status: ACTIVE 
+2018-07-04 14:28:09,0517 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction status: ACTIVE 
+2018-07-04 14:28:09,0517 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction getRollbackonly: false 
+2018-07-04 14:28:09,0517 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction getRollbackonly: false 
+2018-07-04 14:28:09,0517 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.transaction.Txn - Serialization failure. Retrying transaction... 
+2018-07-04 14:28:09,0517 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Serialization failure. Retrying transaction... 
+2018-07-04 14:28:09,0570 a59dc6fe7b2bd724b2c8a8b4d384dc54 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 40001 
+2018-07-04 14:28:09,0570 a59dc6fe7b2bd724b2c8a8b4d384dc54 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ERROR: restart transaction: HandledRetryableTxnError: TransactionRetryError: retry txn (RETRY_SERIALIZABLE): "sql txn" id=36ff2dc8 key=/Table/112/1/362558550214508545/"FILTER_SET"/0 rw=true pri=0.16164654 iso=SERIALIZABLE stat=PENDING epo=0 ts=1530714466.495402411,1 orig=1530714466.491871809,0 max=1530714466.491871809,0 wto=false rop=false seq=8014 
+2018-07-04 14:28:09,0570 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction status: ACTIVE 
+2018-07-04 14:28:09,0570 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction getRollbackonly: false 
+2018-07-04 14:28:09,0571 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Serialization failure. Retrying transaction... 
+2018-07-04 14:28:09,0582 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:28:09,0626 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:28:09,0651 67371a2d1610e5bdc4677fbbf750e8b8 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    45722 nanoseconds spent acquiring 2 JDBC connections;
+    55663 nanoseconds spent releasing 2 JDBC connections;
+    54862274 nanoseconds spent preparing 3109 JDBC statements;
+    19679060934 nanoseconds spent executing 3109 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1106301987 nanoseconds spent executing 12 flushes (flushing a total of 68679 entities and 28607 collections);
+    1244777448 nanoseconds spent executing 27 partial-flushes (flushing a total of 144825 entities and 144825 collections)
+} 
+2018-07-04 14:28:09,0671 67371a2d1610e5bdc4677fbbf750e8b8 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    45835 nanoseconds spent acquiring 2 JDBC connections;
+    33299 nanoseconds spent releasing 2 JDBC connections;
+    223845 nanoseconds spent preparing 3 JDBC statements;
+    3674829 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    9731 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:28:09,0683 67371a2d1610e5bdc4677fbbf750e8b8 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    43039 nanoseconds spent acquiring 2 JDBC connections;
+    28245 nanoseconds spent releasing 2 JDBC connections;
+    95120 nanoseconds spent preparing 3 JDBC statements;
+    6628284 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    9944 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:28:09,0691 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:28:09,0690 67371a2d1610e5bdc4677fbbf750e8b8 WARN com.aginity.amp.catalogservice.port.adapter.rest.mappers.ViewFrameMapperHelper - Column with name EXPR is missed in frame ViewFrame(inputSchemas=[ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[]))], logic=ViewFrameLogic(resultSet=[ViewFrameResultSetColumn(name=CustomerID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@2b8f598d)), ViewFrameResultSetColumn(name=EXPR, expression=Expression(aggregateFunction=SUM, body=${1} + ${2}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null)), ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@2e8c57d6)), ViewFrameResultSetColumn(name=TRANS_ID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=TRANS_ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@6291b9f8))], filter=FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1} + 3, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=null, frameColumn=null, resultSetColumn=EXPR))], columnDataType=null), comparison=LESS_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=7 + ${param1}, operands=[], columnDataType=null)), FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=LIKE, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='5', operands=[], columnDataType=null)), FilterSet(operator=OR, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=CONTAINS, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='55', operands=[], columnDataType=null)), FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null))], columnDataType=null), comparison=GREATER_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=${2} - ${param2}, operands=[ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=null))])])]), fullOuterJoinEnabled=false, limit=null, distinct=null, orderByColumns=[])) 
+2018-07-04 14:28:09,0705 67371a2d1610e5bdc4677fbbf750e8b8 WARN com.aginity.amp.catalogservice.port.adapter.rest.mappers.ViewFrameMapperHelper - Column with name TRANS_ID is missed in frame ViewFrame(inputSchemas=[ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[]))], logic=ViewFrameLogic(resultSet=[ViewFrameResultSetColumn(name=CustomerID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@2b8f598d)), ViewFrameResultSetColumn(name=EXPR, expression=Expression(aggregateFunction=SUM, body=${1} + ${2}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null)), ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@2e8c57d6)), ViewFrameResultSetColumn(name=TRANS_ID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=TRANS_ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@6291b9f8))], filter=FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1} + 3, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=null, frameColumn=null, resultSetColumn=EXPR))], columnDataType=null), comparison=LESS_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=7 + ${param1}, operands=[], columnDataType=null)), FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=LIKE, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='5', operands=[], columnDataType=null)), FilterSet(operator=OR, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=CONTAINS, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='55', operands=[], columnDataType=null)), FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null))], columnDataType=null), comparison=GREATER_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=${2} - ${param2}, operands=[ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=null))])])]), fullOuterJoinEnabled=false, limit=null, distinct=null, orderByColumns=[])) 
+2018-07-04 14:28:09,0719 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:28:09,0754 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:28:09,0782 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:28:09,0819 a59dc6fe7b2bd724b2c8a8b4d384dc54 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 40001 
+2018-07-04 14:28:09,0819 a59dc6fe7b2bd724b2c8a8b4d384dc54 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=36ff2dc8 key=/Table/112/1/362558550214508545/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.991871809,0 wto=false rop=false seq=8019 
+2018-07-04 14:28:09,0843 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Non serialization exception Exception: javax.persistence.PersistenceException: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.postgresql.util.PSQLException: ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=36ff2dc8 key=/Table/112/1/362558550214508545/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.991871809,0 wto=false rop=false seq=8019
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:168)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:116)
+		16 lines skipped for [org.hibernate]
+	at com.aginity.amp.catalogservice.port.adapter.persistence.hibernate.HibernateAssetRepository.assetOfFqn(HibernateAssetRepository.java:175)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementByFqnResolver.resolvePathElementByStartingFqn(PathElementByFqnResolver.java:28)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementsResolver.resolvePathElements(PathElementsResolver.java:54)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.ViewFrameInputSchemaAssembler.assemblyInputSchemas(ViewFrameInputSchemaAssembler.java:31)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.ViewFrameAssemblerFacade.assemblyViewFrame(ViewFrameAssemblerFacade.java:42)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.assemblyFrameWithDetails(ViewFrameApplicationService.java:128)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService.createFrame(AbstractFrameApplicationService.java:98)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.createViewFrame(ViewFrameApplicationService.java:60)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execInTx(Txn.java:76)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execTx(Txn.java:41)
+	at com.aginity.amp.catalogservice.application.transaction.TransactionWrapper.invoke(TransactionWrapper.java:26)
+	at com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource.createFrame(FrameResource.java:149)
+		4 lines skipped for [sun., java.lang.reflect.Method]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228)
+	at io.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:49)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:34)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.handle(AllowedMethodsFilter.java:50)
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.doFilter(AllowedMethodsFilter.java:44)
+		1 line skipped for [org.eclipse]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+		10 lines skipped for [org.eclipse]
+	at com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)
+	at io.dropwizard.jetty.ContextRoutingHandler.handle(ContextRoutingHandler.java:38)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)
+		11 lines skipped for [org.eclipse]
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-07-04 14:28:09,0828 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction status: ACTIVE 
+2018-07-04 14:28:09,0828 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction getRollbackonly: false 
+2018-07-04 14:28:09,0828 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - ------------------------------------------------------ 
+2018-07-04 14:28:09,0843 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - Cause Exception: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.postgresql.util.PSQLException: ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=36ff2dc8 key=/Table/112/1/362558550214508545/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.991871809,0 wto=false rop=false seq=8019
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:168)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:116)
+		16 lines skipped for [org.hibernate]
+	at com.aginity.amp.catalogservice.port.adapter.persistence.hibernate.HibernateAssetRepository.assetOfFqn(HibernateAssetRepository.java:175)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementByFqnResolver.resolvePathElementByStartingFqn(PathElementByFqnResolver.java:28)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementsResolver.resolvePathElements(PathElementsResolver.java:54)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.ViewFrameInputSchemaAssembler.assemblyInputSchemas(ViewFrameInputSchemaAssembler.java:31)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.ViewFrameAssemblerFacade.assemblyViewFrame(ViewFrameAssemblerFacade.java:42)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.assemblyFrameWithDetails(ViewFrameApplicationService.java:128)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService.createFrame(AbstractFrameApplicationService.java:98)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.createViewFrame(ViewFrameApplicationService.java:60)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execInTx(Txn.java:76)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execTx(Txn.java:41)
+	at com.aginity.amp.catalogservice.application.transaction.TransactionWrapper.invoke(TransactionWrapper.java:26)
+	at com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource.createFrame(FrameResource.java:149)
+		4 lines skipped for [sun., java.lang.reflect.Method]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228)
+	at io.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:49)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:34)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.handle(AllowedMethodsFilter.java:50)
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.doFilter(AllowedMethodsFilter.java:44)
+		1 line skipped for [org.eclipse]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+		10 lines skipped for [org.eclipse]
+	at com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)
+	at io.dropwizard.jetty.ContextRoutingHandler.handle(ContextRoutingHandler.java:38)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)
+		11 lines skipped for [org.eclipse]
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-07-04 14:28:09,0843 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO com.aginity.amp.catalogservice.application.transaction.Txn - ------------------------------------------------------ 
+2018-07-04 14:28:09,0859 a59dc6fe7b2bd724b2c8a8b4d384dc54 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    66053 nanoseconds spent acquiring 2 JDBC connections;
+    46650 nanoseconds spent releasing 2 JDBC connections;
+    55460624 nanoseconds spent preparing 3114 JDBC statements;
+    19870255628 nanoseconds spent executing 3114 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1080212673 nanoseconds spent executing 14 flushes (flushing a total of 84047 entities and 35013 collections);
+    1231868752 nanoseconds spent executing 32 partial-flushes (flushing a total of 183245 entities and 183245 collections)
+} 
+2018-07-04 14:28:09,0864 a59dc6fe7b2bd724b2c8a8b4d384dc54 ERROR com.aginity.amp.common.port.adapter.rest.exception.LoggingExceptionMapper - Error handling a request: 6ba7faf97541e8e9 Exception: javax.persistence.PersistenceException: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.postgresql.util.PSQLException: ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=36ff2dc8 key=/Table/112/1/362558550214508545/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.991871809,0 wto=false rop=false seq=8019
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:168)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:116)
+		16 lines skipped for [org.hibernate]
+	at com.aginity.amp.catalogservice.port.adapter.persistence.hibernate.HibernateAssetRepository.assetOfFqn(HibernateAssetRepository.java:175)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementByFqnResolver.resolvePathElementByStartingFqn(PathElementByFqnResolver.java:28)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementsResolver.resolvePathElements(PathElementsResolver.java:54)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.ViewFrameInputSchemaAssembler.assemblyInputSchemas(ViewFrameInputSchemaAssembler.java:31)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.ViewFrameAssemblerFacade.assemblyViewFrame(ViewFrameAssemblerFacade.java:42)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.assemblyFrameWithDetails(ViewFrameApplicationService.java:128)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService.createFrame(AbstractFrameApplicationService.java:98)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.createViewFrame(ViewFrameApplicationService.java:60)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execInTx(Txn.java:76)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execTx(Txn.java:41)
+	at com.aginity.amp.catalogservice.application.transaction.TransactionWrapper.invoke(TransactionWrapper.java:26)
+	at com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource.createFrame(FrameResource.java:149)
+		4 lines skipped for [sun., java.lang.reflect.Method]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228)
+	at io.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:49)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:34)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.handle(AllowedMethodsFilter.java:50)
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.doFilter(AllowedMethodsFilter.java:44)
+		1 line skipped for [org.eclipse]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+		10 lines skipped for [org.eclipse]
+	at com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)
+	at io.dropwizard.jetty.ContextRoutingHandler.handle(ContextRoutingHandler.java:38)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)
+		11 lines skipped for [org.eclipse]
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-07-04 14:28:09,0884 d5edba0319b6a6d93c4d53d85a46ac9c WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 40001 
+2018-07-04 14:28:09,0885 d5edba0319b6a6d93c4d53d85a46ac9c ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=dd7720bf key=/Table/112/1/362558550268739585/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.994169487,0 wto=false rop=false seq=8007 
+2018-07-04 14:28:09,0890 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction status: ACTIVE 
+2018-07-04 14:28:09,0890 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Transaction getRollbackonly: false 
+2018-07-04 14:28:09,0890 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - ------------------------------------------------------ 
+2018-07-04 14:28:09,0891 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Non serialization exception Exception: javax.persistence.PersistenceException: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.postgresql.util.PSQLException: ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=dd7720bf key=/Table/112/1/362558550268739585/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.994169487,0 wto=false rop=false seq=8007
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:168)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:116)
+		16 lines skipped for [org.hibernate]
+	at com.aginity.amp.catalogservice.port.adapter.persistence.hibernate.HibernateAssetRepository.assetOfFqn(HibernateAssetRepository.java:175)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementByFqnResolver.resolvePathElementByStartingFqn(PathElementByFqnResolver.java:28)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementsResolver.resolvePathElements(PathElementsResolver.java:54)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.ViewFrameInputSchemaAssembler.assemblyInputSchemas(ViewFrameInputSchemaAssembler.java:31)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.ViewFrameAssemblerFacade.assemblyViewFrame(ViewFrameAssemblerFacade.java:42)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.assemblyFrameWithDetails(ViewFrameApplicationService.java:128)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService.createFrame(AbstractFrameApplicationService.java:98)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.createViewFrame(ViewFrameApplicationService.java:60)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execInTx(Txn.java:76)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execTx(Txn.java:41)
+	at com.aginity.amp.catalogservice.application.transaction.TransactionWrapper.invoke(TransactionWrapper.java:26)
+	at com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource.createFrame(FrameResource.java:149)
+		4 lines skipped for [sun., java.lang.reflect.Method]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228)
+	at io.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:49)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:34)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.handle(AllowedMethodsFilter.java:50)
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.doFilter(AllowedMethodsFilter.java:44)
+		1 line skipped for [org.eclipse]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+		10 lines skipped for [org.eclipse]
+	at com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)
+	at io.dropwizard.jetty.ContextRoutingHandler.handle(ContextRoutingHandler.java:38)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)
+		15 lines skipped for [org.eclipse]
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-07-04 14:28:09,0891 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - Cause Exception: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.postgresql.util.PSQLException: ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=dd7720bf key=/Table/112/1/362558550268739585/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.994169487,0 wto=false rop=false seq=8007
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:168)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:116)
+		16 lines skipped for [org.hibernate]
+	at com.aginity.amp.catalogservice.port.adapter.persistence.hibernate.HibernateAssetRepository.assetOfFqn(HibernateAssetRepository.java:175)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementByFqnResolver.resolvePathElementByStartingFqn(PathElementByFqnResolver.java:28)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementsResolver.resolvePathElements(PathElementsResolver.java:54)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.ViewFrameInputSchemaAssembler.assemblyInputSchemas(ViewFrameInputSchemaAssembler.java:31)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.ViewFrameAssemblerFacade.assemblyViewFrame(ViewFrameAssemblerFacade.java:42)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.assemblyFrameWithDetails(ViewFrameApplicationService.java:128)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService.createFrame(AbstractFrameApplicationService.java:98)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.createViewFrame(ViewFrameApplicationService.java:60)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execInTx(Txn.java:76)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execTx(Txn.java:41)
+	at com.aginity.amp.catalogservice.application.transaction.TransactionWrapper.invoke(TransactionWrapper.java:26)
+	at com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource.createFrame(FrameResource.java:149)
+		4 lines skipped for [sun., java.lang.reflect.Method]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228)
+	at io.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:49)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:34)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.handle(AllowedMethodsFilter.java:50)
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.doFilter(AllowedMethodsFilter.java:44)
+		1 line skipped for [org.eclipse]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+		10 lines skipped for [org.eclipse]
+	at com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)
+	at io.dropwizard.jetty.ContextRoutingHandler.handle(ContextRoutingHandler.java:38)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)
+		15 lines skipped for [org.eclipse]
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-07-04 14:28:09,0892 d5edba0319b6a6d93c4d53d85a46ac9c INFO com.aginity.amp.catalogservice.application.transaction.Txn - ------------------------------------------------------ 
+2018-07-04 14:28:09,0909 d5edba0319b6a6d93c4d53d85a46ac9c INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    151027 nanoseconds spent acquiring 2 JDBC connections;
+    175641 nanoseconds spent releasing 2 JDBC connections;
+    80510989 nanoseconds spent preparing 3114 JDBC statements;
+    19824334049 nanoseconds spent executing 3114 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1049753624 nanoseconds spent executing 14 flushes (flushing a total of 84047 entities and 35013 collections);
+    1324388231 nanoseconds spent executing 32 partial-flushes (flushing a total of 183245 entities and 183245 collections)
+} 
+2018-07-04 14:28:09,0911 d5edba0319b6a6d93c4d53d85a46ac9c ERROR com.aginity.amp.common.port.adapter.rest.exception.LoggingExceptionMapper - Error handling a request: d767fe57dcf85e02 Exception: javax.persistence.PersistenceException: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.hibernate.exception.LockAcquisitionException: could not extract ResultSet
+Caused by: org.postgresql.util.PSQLException: ERROR: restart transaction: HandledRetryableTxnError: TransactionAbortedError: txn aborted "sql txn" id=dd7720bf key=/Table/112/1/362558550268739585/"FILTER_SET"/0 rw=true pri=0.17730189 iso=SERIALIZABLE stat=PENDING epo=1 ts=1530714466.495402411,1 orig=1530714466.495402411,1 max=1530714466.994169487,0 wto=false rop=false seq=8007
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2155)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:288)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:430)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:356)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:168)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:116)
+		16 lines skipped for [org.hibernate]
+	at com.aginity.amp.catalogservice.port.adapter.persistence.hibernate.HibernateAssetRepository.assetOfFqn(HibernateAssetRepository.java:175)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementByFqnResolver.resolvePathElementByStartingFqn(PathElementByFqnResolver.java:28)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.PathElementsResolver.resolvePathElements(PathElementsResolver.java:54)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.inputschema.ViewFrameInputSchemaAssembler.assemblyInputSchemas(ViewFrameInputSchemaAssembler.java:31)
+	at com.aginity.amp.catalogservice.application.services.frame.viewframe.ViewFrameAssemblerFacade.assemblyViewFrame(ViewFrameAssemblerFacade.java:42)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.assemblyFrameWithDetails(ViewFrameApplicationService.java:128)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService.createFrame(AbstractFrameApplicationService.java:98)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.services.frame.ViewFrameApplicationService.createViewFrame(ViewFrameApplicationService.java:60)
+	at com.aginity.amp.catalogservice.application.commands.validation.ValidateCommandWrapper.invoke(ValidateCommandWrapper.java:37)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execInTx(Txn.java:76)
+	at com.aginity.amp.catalogservice.application.transaction.Txn.execTx(Txn.java:41)
+	at com.aginity.amp.catalogservice.application.transaction.TransactionWrapper.invoke(TransactionWrapper.java:26)
+	at com.aginity.amp.catalogservice.port.adapter.rest.resources.asset.FrameResource.createFrame(FrameResource.java:149)
+		4 lines skipped for [sun., java.lang.reflect.Method]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228)
+	at io.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:49)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:34)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.handle(AllowedMethodsFilter.java:50)
+	at io.dropwizard.jersey.filter.AllowedMethodsFilter.doFilter(AllowedMethodsFilter.java:44)
+		1 line skipped for [org.eclipse]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+		10 lines skipped for [org.eclipse]
+	at com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)
+	at io.dropwizard.jetty.ContextRoutingHandler.handle(ContextRoutingHandler.java:38)
+		1 line skipped for [org.eclipse]
+	at io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)
+		15 lines skipped for [org.eclipse]
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-07-04 14:28:10,0183  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:28:10,0183  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:28:10,0194 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 454ffaa8fd64657b11e05c72c6bd20f4 
+2018-07-04 14:28:10,0194 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:28:10,0194 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:28:10,0273 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before checkAssetCanBeCreated 
+2018-07-04 14:28:10,0291 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After checkAssetCanBeCreated 
+2018-07-04 14:28:10,0899 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before frame save 
+2018-07-04 14:28:11,0113 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After frame save 
+2018-07-04 14:28:11,0113 54dfed58b811d5cb772336b4b6dba33b INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_FRAME', time=1530714491113, attributes={}} 
+2018-07-04 14:28:11,0325 54dfed58b811d5cb772336b4b6dba33b INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    62353 nanoseconds spent acquiring 2 JDBC connections;
+    78809 nanoseconds spent releasing 2 JDBC connections;
+    89196062 nanoseconds spent preparing 3271 JDBC statements;
+    20548569986 nanoseconds spent executing 3271 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1358424180 nanoseconds spent executing 24 flushes (flushing a total of 161602 entities and 67351 collections);
+    1708870412 nanoseconds spent executing 54 partial-flushes (flushing a total of 353593 entities and 353593 collections)
+} 
+2018-07-04 14:28:11,0349 54dfed58b811d5cb772336b4b6dba33b INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    84906 nanoseconds spent acquiring 2 JDBC connections;
+    72017 nanoseconds spent releasing 2 JDBC connections;
+    48650 nanoseconds spent preparing 3 JDBC statements;
+    4319043 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    15860 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:28:11,0356 54dfed58b811d5cb772336b4b6dba33b INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    58165 nanoseconds spent acquiring 2 JDBC connections;
+    53956 nanoseconds spent releasing 2 JDBC connections;
+    16800 nanoseconds spent preparing 3 JDBC statements;
+    2313055 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    7824 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:28:11,0357 54dfed58b811d5cb772336b4b6dba33b WARN com.aginity.amp.catalogservice.port.adapter.rest.mappers.ViewFrameMapperHelper - Column with name EXPR is missed in frame ViewFrame(inputSchemas=[ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[]))], logic=ViewFrameLogic(resultSet=[ViewFrameResultSetColumn(name=CustomerID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@dbfa02e)), ViewFrameResultSetColumn(name=EXPR, expression=Expression(aggregateFunction=SUM, body=${1} + ${2}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null)), ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@1ec31c92)), ViewFrameResultSetColumn(name=TRANS_ID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=TRANS_ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@2ba9c8d1))], filter=FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1} + 3, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=null, frameColumn=null, resultSetColumn=EXPR))], columnDataType=null), comparison=LESS_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=7 + ${param1}, operands=[], columnDataType=null)), FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=LIKE, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='5', operands=[], columnDataType=null)), FilterSet(operator=OR, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=CONTAINS, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='55', operands=[], columnDataType=null)), FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null))], columnDataType=null), comparison=GREATER_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=${2} - ${param2}, operands=[ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=null))])])]), fullOuterJoinEnabled=false, limit=null, distinct=null, orderByColumns=[])) 
+2018-07-04 14:28:11,0357 54dfed58b811d5cb772336b4b6dba33b WARN com.aginity.amp.catalogservice.port.adapter.rest.mappers.ViewFrameMapperHelper - Column with name TRANS_ID is missed in frame ViewFrame(inputSchemas=[ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[]))], logic=ViewFrameLogic(resultSet=[ViewFrameResultSetColumn(name=CustomerID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@dbfa02e)), ViewFrameResultSetColumn(name=EXPR, expression=Expression(aggregateFunction=SUM, body=${1} + ${2}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null)), ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@1ec31c92)), ViewFrameResultSetColumn(name=TRANS_ID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=TRANS_ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@2ba9c8d1))], filter=FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1} + 3, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=null, frameColumn=null, resultSetColumn=EXPR))], columnDataType=null), comparison=LESS_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=7 + ${param1}, operands=[], columnDataType=null)), FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=LIKE, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='5', operands=[], columnDataType=null)), FilterSet(operator=OR, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=CONTAINS, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='55', operands=[], columnDataType=null)), FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null))], columnDataType=null), comparison=GREATER_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=${2} - ${param2}, operands=[ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=null))])])]), fullOuterJoinEnabled=false, limit=null, distinct=null, orderByColumns=[])) 
+2018-07-04 14:28:23,0034 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - Before frame save 
+2018-07-04 14:28:23,0202 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.catalogservice.application.services.frame.AbstractFrameApplicationService - After frame save 
+2018-07-04 14:28:23,0202 454ffaa8fd64657b11e05c72c6bd20f4 INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='CREATE_FRAME', time=1530714503202, attributes={}} 
+2018-07-04 14:28:23,0372 454ffaa8fd64657b11e05c72c6bd20f4 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    73244 nanoseconds spent acquiring 2 JDBC connections;
+    51994 nanoseconds spent releasing 2 JDBC connections;
+    32128215 nanoseconds spent preparing 3161 JDBC statements;
+    11975346966 nanoseconds spent executing 3161 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    264196826 nanoseconds spent executing 12 flushes (flushing a total of 69849 entities and 29111 collections);
+    219749527 nanoseconds spent executing 27 partial-flushes (flushing a total of 147295 entities and 147295 collections)
+} 
+2018-07-04 14:28:23,0383 454ffaa8fd64657b11e05c72c6bd20f4 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    43097 nanoseconds spent acquiring 2 JDBC connections;
+    34219 nanoseconds spent releasing 2 JDBC connections;
+    48776 nanoseconds spent preparing 3 JDBC statements;
+    4749976 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    9523 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:28:23,0399 454ffaa8fd64657b11e05c72c6bd20f4 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    32789 nanoseconds spent acquiring 2 JDBC connections;
+    26324 nanoseconds spent releasing 2 JDBC connections;
+    33837 nanoseconds spent preparing 3 JDBC statements;
+    14276085 nanoseconds spent executing 3 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    9476 nanoseconds spent executing 3 partial-flushes (flushing a total of 0 entities and 0 collections)
+} 
+2018-07-04 14:28:23,0399 454ffaa8fd64657b11e05c72c6bd20f4 WARN com.aginity.amp.catalogservice.port.adapter.rest.mappers.ViewFrameMapperHelper - Column with name EXPR is missed in frame ViewFrame(inputSchemas=[ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[]))], logic=ViewFrameLogic(resultSet=[ViewFrameResultSetColumn(name=CustomerID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@4c6c076d)), ViewFrameResultSetColumn(name=EXPR, expression=Expression(aggregateFunction=SUM, body=${1} + ${2}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null)), ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@3faddf66)), ViewFrameResultSetColumn(name=TRANS_ID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=TRANS_ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@558037f6))], filter=FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1} + 3, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=null, frameColumn=null, resultSetColumn=EXPR))], columnDataType=null), comparison=LESS_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=7 + ${param1}, operands=[], columnDataType=null)), FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=LIKE, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='5', operands=[], columnDataType=null)), FilterSet(operator=OR, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=CONTAINS, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='55', operands=[], columnDataType=null)), FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null))], columnDataType=null), comparison=GREATER_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=${2} - ${param2}, operands=[ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=null))])])]), fullOuterJoinEnabled=false, limit=null, distinct=null, orderByColumns=[])) 
+2018-07-04 14:28:23,0399 454ffaa8fd64657b11e05c72c6bd20f4 WARN com.aginity.amp.catalogservice.port.adapter.rest.mappers.ViewFrameMapperHelper - Column with name TRANS_ID is missed in frame ViewFrame(inputSchemas=[ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[]))], logic=ViewFrameLogic(resultSet=[ViewFrameResultSetColumn(name=CustomerID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@4c6c076d)), ViewFrameResultSetColumn(name=EXPR, expression=Expression(aggregateFunction=SUM, body=${1} + ${2}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null)), ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@3faddf66)), ViewFrameResultSetColumn(name=TRANS_ID, expression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=TRANS_ID, resultSetColumn=null))], columnDataType=com.aginity.amp.catalogservice.domain.model.workspace.asset.ColumnDataType@558037f6))], filter=FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1} + 3, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=null, frameColumn=null, resultSetColumn=EXPR))], columnDataType=null), comparison=LESS_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=7 + ${param1}, operands=[], columnDataType=null)), FilterSet(operator=AND, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=LIKE, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='5', operands=[], columnDataType=null)), FilterSet(operator=OR, statements=[FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c, ordering=0, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1)]), parameterValues=[])), frameColumn=Customer ID, resultSetColumn=null))], columnDataType=null), comparison=CONTAINS, qualifier=null, rightExpression=Expression(aggregateFunction=null, body='55', operands=[], columnDataType=null)), FilterEntry(leftExpression=Expression(aggregateFunction=null, body=${1}, operands=[ExpressionOperand(ordering=1, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=f, ordering=1, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=6bbb0f4b-aebe-4e13-a95f-44cb22765692], relationshipName=PERSONA_NK, ordering=2)]), parameterValues=[ViewFrameInputSchemaMappingParameterValue(paramName=$param2, paramValue=36), ViewFrameInputSchemaMappingParameterValue(paramName=$param1, paramValue=${param1})])), frameColumn=NET_SALES_AMT, resultSetColumn=null))], columnDataType=null), comparison=GREATER_THAN, qualifier=null, rightExpression=Expression(aggregateFunction=null, body=${2} - ${param2}, operands=[ExpressionOperand(ordering=2, dataElement=DataElement(inputSchema=ViewFrameInputSchema(name=c2, ordering=2, mapping=ViewFrameInputSchemaMapping(path=Path(pathElements=[PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=null, ordering=1), PathElement(frameId=AssetId [id=4896ec8b-b35d-4b13-876b-274c545f362d], relationshipName=Persona_Individual, ordering=2), PathElement(frameId=AssetId [id=6a3e869a-c950-43a5-9b95-0de66a666e18], relationshipName=Persona_Individual, ordering=3)]), parameterValues=[])), frameColumn=Age, resultSetColumn=null))], columnDataType=null))])])]), fullOuterJoinEnabled=false, limit=null, distinct=null, orderByColumns=[])) 
+2018-07-04 14:28:23,0511  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:28:23,0511  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:28:23,0512 f703e0a5a7fd481ae9b9376a737170ac INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : f703e0a5a7fd481ae9b9376a737170ac 
+2018-07-04 14:28:23,0512 f703e0a5a7fd481ae9b9376a737170ac INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:28:23,0512 f703e0a5a7fd481ae9b9376a737170ac INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:28:23,0525 f703e0a5a7fd481ae9b9376a737170ac WARN org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 103 in HQL: [from com.aginity.amp.catalogservice.domain.model.workspace.asset.Asset as _obj_ WHERE _obj_.projectId=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead. 
+2018-07-04 14:28:23,0855 f703e0a5a7fd481ae9b9376a737170ac INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='DELETE_PROJECT', time=1530714503855, attributes={}} 
+2018-07-04 14:28:24,0497 f703e0a5a7fd481ae9b9376a737170ac INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    58051 nanoseconds spent acquiring 2 JDBC connections;
+    41414 nanoseconds spent releasing 2 JDBC connections;
+    4618040 nanoseconds spent preparing 312 JDBC statements;
+    868887799 nanoseconds spent executing 312 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    638135792 nanoseconds spent executing 2 flushes (flushing a total of 198 entities and 84 collections);
+    265107 nanoseconds spent executing 5 partial-flushes (flushing a total of 4 entities and 4 collections)
+} 
+2018-07-04 14:28:24,0519  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Principal : admin 
+2018-07-04 14:28:24,0519  INFO com.aginity.amp.common.auth.HeaderAuthFilter - Permissions : *:* 
+2018-07-04 14:28:24,0521 03c0bc8fa03b71adacf660af54bc32da INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Correlation ID : 03c0bc8fa03b71adacf660af54bc32da 
+2018-07-04 14:28:24,0521 03c0bc8fa03b71adacf660af54bc32da INFO com.aginity.amp.common.auth.HeadersLoggingFilter - User : admin 
+2018-07-04 14:28:24,0521 03c0bc8fa03b71adacf660af54bc32da INFO com.aginity.amp.common.auth.HeadersLoggingFilter - Permissions : *:* 
+2018-07-04 14:28:24,0531 03c0bc8fa03b71adacf660af54bc32da INFO com.aginity.amp.common.events.feature.EventTrackerWithQueue - RabbitMQ: feature message AmpEvent{  userId='admin', eventType='DELETE_WORKSPACE', time=1530714504531, attributes={}} 
+2018-07-04 14:28:24,0541 03c0bc8fa03b71adacf660af54bc32da INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener - Session Metrics {
+    97866 nanoseconds spent acquiring 2 JDBC connections;
+    37077 nanoseconds spent releasing 2 JDBC connections;
+    156327 nanoseconds spent preparing 5 JDBC statements;
+    11679912 nanoseconds spent executing 5 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5361729 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    93747 nanoseconds spent executing 4 partial-flushes (flushing a total of 1 entities and 1 collections)
+} 
